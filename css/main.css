@@ -19,11 +19,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Sunflower', sans-serif;
 }
-
+/*index page */
 .main-section {
     height: 100vh;
     padding: 5vh;
     background-color: #d4d4d4;
+    overflow-x: hidden;
 }
 .main-left {
     background: #051d4ce6;
