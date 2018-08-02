@@ -1,0 +1,11 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 1000px) {
+	.main-section {
+	    min-height: 100vh;
+	    padding: 0;
+	    background-color: #d4d4d4;
+	}
+	.mb-hidden {
+		display: none;
+	}
+} 

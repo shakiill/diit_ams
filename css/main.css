@@ -1,0 +1,144 @@
+/*font*/
+/*font-family: 'Maven Pro', sans-serif;
+font-family: 'Sunflower', sans-serif;*/
+
+/*global css start*/
+.pd-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*global css end*/
+
+body {
+
+}
+* p {
+    font-family: 'Maven Pro', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Sunflower', sans-serif;
+}
+
+.main-section {
+    height: 100vh;
+    padding: 5vh;
+    background-color: #d4d4d4;
+}
+.main-left {
+    background: #051d4ce6;
+    color: #fff;
+    height: 90vh;
+    padding-right: 0px;
+}
+
+.main-top {
+    padding-top: 90px;
+}
+.main-top img {
+    max-width: 120px;
+
+}
+.login-text {
+    padding: 20px 10px;
+}
+.login-text h3 {
+    font-size: 20px;
+}
+.tr-login input {
+    margin-top: 15px;
+    width: 270px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    text-align: center;
+    color: #101010;
+    font-family: 'Maven Pro', sans-serif
+}
+
+.main-rt {
+    background-image: url(../img/main-rt.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    padding-left: 0px;
+}
+.main-bottom {
+    padding-top: 72px;
+}
+
+.main-bottom p {
+    color:  #fff;
+    font-size:  13px;
+    letter-spacing:  0.05em;
+   
+}
+.main-rt-img img {
+    max-width: 130px;
+    padding-top: 130px;
+}
+.main-rt-text {
+    color: #fff;
+    padding: 20px 60px;
+}
+.main-rt-text p {
+    font-size: 17px;
+}
+
+/*login button*/
+.draw-border {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    box-shadow: inset 0 0 0 4px #58afd1;
+    color: #fff;
+    transition: color 0.25s 0.0833333333s;
+    position: relative;
+}
+.draw-border::before, .draw-border::after {
+  border: 0 solid transparent;
+  box-sizing: border-box;
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 0;
+  right: 0;
+}
+.draw-border::before {
+  border-bottom-width: 4px;
+  border-left-width: 4px;
+}
+.draw-border::after {
+  border-top-width: 4px;
+  border-right-width: 4px;
+}
+.draw-border:hover {
+  color: #ffe593;
+}
+.draw-border:hover::before, .draw-border:hover::after {
+  border-color: #ffe593;
+  transition: border-color 0s, width 0.25s, height 0.25s;
+  width: 100%;
+  height: 100%;
+}
+.draw-border:hover::before {
+  transition-delay: 0s, 0s, 0.25s;
+}
+.draw-border:hover::after {
+  transition-delay: 0s, 0.25s, 0s;
+}
+
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1.5;
+  font: 700 1.2rem "Roboto Slab", sans-serif;
+  padding: 1em 4em;
+  letter-spacing: 0.2em;
+}
+.btn:focus {
+  outline: 2px dotted #55d7dc;
+}
