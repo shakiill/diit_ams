@@ -11,8 +11,8 @@
     <!-- Font Awesome CSS-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <!-- fonts link -->
-    <link href="https://fonts.googleapis.com/css?family=Maven+Pro|Sunflower:300" 
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro|Sunflower:300"
+          rel="stylesheet">
     <!--main css-->
     <link rel="stylesheet" href="css/main.css">
     <!-- responsive css -->
@@ -22,8 +22,10 @@
 
 <body>
 
-<section class="main-section">
-    <div class="container-full">
+<!--this section for desktop-->
+
+<section class="main-section  mb-hidden">
+    <div class="container-fluid">
         <div class="row clearfix">
             <div class="col-md-5 col-sm-12 col-xs-12 text-center pd-0 ">
                 <div class="main-left">
@@ -37,7 +39,7 @@
                         <div class="login-form">
                             <form class="tr-login">
                                 <input type="text" name="userid" placeholder="your username"><br>
-                               <input type="password" name="psw" placeholder="your password"><br>
+                                <input type="password" name="psw" placeholder="your password"><br>
 
                                 <button type="submit" class="btn draw-border">Login</button>
                             </form>
@@ -48,22 +50,55 @@
                     </div>
                 </div>
             </div>
-            
-            <div class="col-md-7 mb-hidden pd-0 ">
+
+            <div class="col-md-7 pd-0 ">
                 <div class="main-rt text-center">
                     <div class="main-rt-img">
                         <img src="img/higher_education.png">
                     </div>
                     <div class="main-rt-text">
                         <h2><u>Daffodil Institute Of IT</u></h2>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', </p>
-                        
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                            more-or-less normal distribution of letters, as opposed to using 'Content here, content
+                            here', </p>
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<!--this section for mobile-->
+
+<div class="main-mobile">
+    <div class="main-mobile text-center">
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <div class="main-top">
+                    <img src="img/diit_logo.png" alt="">
+                </div>
+                <div class="main-login">
+                    <div class="login-text">
+                        <h3>Digital attendance management system.</h3>
+                    </div>
+                    <div class="login-form">
+                        <form class="tr-login">
+                            <input type="text" name="userid" placeholder="your username"><br>
+                            <input type="password" name="psw" placeholder="your password"><br>
+
+                            <button type="submit" class="btn draw-border">Login</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="main-bottom">
+                    <p>Copyright @2018 | Design and develop by Shakil & Topu</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <!--js library-->

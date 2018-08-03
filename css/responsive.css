@@ -1,37 +1,47 @@
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 1000px) {
-	body {
-	}
-	.main-top {
-    padding-top: 85px;
-}
-.main-top img {
-    max-width: 150px;
-}
-	.main-section {
-	    padding: 0;
-	    background: #051d4ce6;
-	}
-	.main-left {
-    
-    color: #fff;
-     min-height: 100vh;
-    padding-right: 0px;
-}
-	.mb-hidden {
-		display: none;
-	}
-	.main-bottom p {
-	 padding-left: 44px;
-    padding-right: 44px;
-    padding-bottom: 50px;
+@media only screen and (min-width: 992px) {
+    .main-mobile {
+        display: none;
     }
-.login-text h3 {
-    padding-left: 15px;
-    padding-right: 15px;
+
 }
 
+/* Extra small devices (phones, 1000px and down) */
+@media only screen and (max-width: 991px) {
+    .mb-hidden {
+        display: none;
+    }
 
+    body {
+        background: #051d4ce6;
+    }
 
+    .main-top {
+        padding-top: 85px;
+    }
 
-} 
+    .main-top img {
+        max-width: 150px;
+    }
+
+    .main-section {
+        padding: 0;
+
+    }
+
+    .login-text h3 {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .main-bottom p {
+        padding-left: 44px;
+        padding-right: 44px;
+        padding-bottom: 50px;
+    }
+
+    .login-text h3 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
