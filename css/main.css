@@ -167,10 +167,29 @@ h1, h2, h3, h4, h5, h6 {
 /*end main page*/
 
 /*start report page*/
+.navbar-brand {
+    float: left;
+    height: 60px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 60px;
+}
+.navbar-brand img {
+    max-width: 70px;
+}
 .st-table {
     margin-top: 20px;
 }
-
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    padding: 2px;
+    border-radius: 1px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #3a3939b8;
+}
 .report-body {
     background: #051d4ce6;
 }
