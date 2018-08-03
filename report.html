@@ -57,7 +57,11 @@
             <div class="col-md-12">
                 <div class="batch-content text-center">
                     <ul class="b-details">
-                        <li> Search</li>
+                        <li>
+
+                            <button class="openBtn" onclick="openSearch()"><i class="fa fa-search"></i></button>
+
+                        </li>
                         <li> Department : CSE</li>
                         <li> Batch : 15th</li>
                         <li> Section : A</li>
@@ -158,11 +162,22 @@
                 </table>
             </div>
             <div class="btn-data">
-                <button id="submit" type="submit" class="frm-btn"> Submit </button>
-                 <button id="update" type="submit" class="frm-btn"> Update </button>
+                <button id="submit" type="submit" class="frm-btn"> Submit</button>
+                <button id="update" type="submit" class="frm-btn"> Update</button>
             </div>
 
         </div>
+    </div>
+</div>
+
+
+<div id="myOverlay" class="overlay">
+    <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+    <div class="overlay-content">
+        <form action="">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
     </div>
 </div>
 
@@ -172,6 +187,15 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
 <!--bootdtrap-->
 <script src="js/bootstrap.min.js"></script>
+<script>
+    function openSearch() {
+        document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function closeSearch() {
+        document.getElementById("myOverlay").style.display = "none";
+    }
+</script>
 
 </body>
 </html>
