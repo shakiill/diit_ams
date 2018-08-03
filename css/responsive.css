@@ -1,17 +1,21 @@
 @media only screen and (min-width: 992px) {
+    /*start main page*/
     .main-mobile {
         display: none;
     }
+
+    /*end mani page*/
 
 }
 
 /* Extra small devices (phones, 1000px and down) */
 @media only screen and (max-width: 991px) {
+    /*start main page*/
     .mb-hidden {
         display: none;
     }
 
-    body {
+    .index-body {
         background: #051d4ce6;
     }
 
@@ -44,4 +48,8 @@
         padding-right: 15px;
     }
 
+    /*end main page*/
+
+
 }
+

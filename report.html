@@ -5,15 +5,173 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-     <!-- Bootstrap CSS-->
+    <title>Report | Diit Attendance management system</title>
+    <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Font Awesome CSS-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- fonts link -->
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro|Sunflower:300"
+          rel="stylesheet">
     <!--main css-->
     <link rel="stylesheet" href="css/main.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
-<body>
+
+
+<body class="report-body">
+
+<!--section header-->
+<div class="section-menu">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Brand</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Link</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</div>
+
+<!--batch details-->
+
+<div class="batch">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="batch-content text-center">
+                    <ul class="b-details">
+                        <li> Search</li>
+                        <li> Department : CSE</li>
+                        <li> Batch : 15th</li>
+                        <li> Section : A</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--student table-->
+<div class="st-table">
+    <div class="container">
+        <div class="row">
+            <div class="st-table-content table-responsive">
+                <table class="st-table-data table-hover">
+                    <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Student Name</th>
+                        <th>Present</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1543</td>
+                        <td>Saleh Ahmad</td>
+                        <td>
+                            <p class="onoff">
+                                <input type="checkbox" value="1" id="checkboxID">
+                                <label for="checkboxID"></label>
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>1550</td>
+                        <td>Mahmudul Huq</td>
+                        <td>
+                            <p class="onoff">
+                                <input type="checkbox" value="1" id="1550">
+                                <label for="1550"></label>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1551</td>
+                        <td>Rinky Chowdhury</td>
+                        <td>
+                            <p class="onoff">
+                                <input type="checkbox" value="1" id="1551">
+                                <label for="1551"></label>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1586</td>
+                        <td>Jarin Tasnim</td>
+                        <td>
+                            <p class="onoff">
+                                <input type="checkbox" value="1" id="1586">
+                                <label for="1586"></label>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1524</td>
+                        <td>Kamrul Hasan</td>
+                        <td>
+                            <p class="onoff">
+                                <input type="checkbox" value="1" id="1524">
+                                <label for="1524"></label>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1513</td>
+                        <td>Mosfequr Rahman</td>
+                        <td>
+                            <p class="onoff">
+                                <input type="checkbox" value="1" id="1513">
+                                <label for="1513"></label>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1560</td>
+                        <td>Shakil Mahmud Shakil Mahmud</td>
+                        <td>
+                            <p class="onoff">
+                                <input type="checkbox" value="1" id="1560">
+                                <label for="1560"></label>
+                            </p>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="btn-data">
+                <button id="submit" type="submit" class="frm-btn"> Submit </button>
+                 <button id="update" type="submit" class="frm-btn"> Update </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!--js library-->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<!--bootdtrap-->
+<script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>
