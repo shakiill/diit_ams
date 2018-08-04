@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> Report | Diit Attendance management system</title>
+    <title>Report | Diit Attendance management system</title>
     <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Font Awesome CSS-->
@@ -56,11 +56,12 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="batch-content text-center">
-                    <ul class="b-details">                        
+                    <ul class="b-details">
                         <li> Department : CSE</li>
                         <li> Batch : 15th</li>
                         <li> Section : A</li>
                         <li><input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for ID" title="Type in a ID"></li>
+
                     </ul>
                 </div>
             </div>
@@ -78,56 +79,93 @@
                     <tr>
                         <th>ID</th>
                         <th>Student Name</th>
-                        <th>Parcentance</th>
+                        <th>Present</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
                         <td>1543</td>
-                        <td>Saleh Ahmad Shakil</td>
-                        <td> 95% </td>
+                        <td>Saleh Ahmad</td>
+                        <td>
+                            <p class="onoff">
+                                <input type="checkbox" value="1" id="checkboxID">
+                                <label for="checkboxID"></label>
+                            </p>
+                        </td>
                     </tr>
 
                     <tr>
                         <td>1550</td>
                         <td>Mahmudul Huq</td>
-                         <td> 75% </td>
+                        <td>
+                            <p class="onoff">
+                                <input type="checkbox" value="1" id="1550">
+                                <label for="1550"></label>
+                            </p>
+                        </td>
                     </tr>
                     <tr>
                         <td>1551</td>
                         <td>Rinky Chowdhury</td>
-                         <td> 45% </td>
+                        <td>
+                            <p class="onoff">
+                                <input type="checkbox" value="1" id="1551">
+                                <label for="1551"></label>
+                            </p>
+                        </td>
                     </tr>
                     <tr>
                         <td>1586</td>
                         <td>Jarin Tasnim</td>
-                         <td> 69% </td>
+                        <td>
+                            <p class="onoff">
+                                <input type="checkbox" value="1" id="1586">
+                                <label for="1586"></label>
+                            </p>
+                        </td>
                     </tr>
                     <tr>
                         <td>1524</td>
                         <td>Kamrul Hasan</td>
-                         <td> 35% </td>
+                        <td>
+                            <p class="onoff">
+                                <input type="checkbox" value="1" id="1524">
+                                <label for="1524"></label>
+                            </p>
+                        </td>
                     </tr>
                     <tr>
                         <td>1513</td>
                         <td>Mosfequr Rahman</td>
-                        <td> 55% </td>
+                        <td>
+                            <p class="onoff">
+                                <input type="checkbox" value="1" id="1513">
+                                <label for="1513"></label>
+                            </p>
+                        </td>
                     </tr>
                     <tr>
                         <td>1560</td>
-                        <td>Shakil Mahmud Limon</td>
-                         <td> 65% </td>
+                        <td>Shakil Mahmud Shakil Mahmud</td>
+                        <td>
+                            <p class="onoff">
+                                <input type="checkbox" value="1" id="1560">
+                                <label for="1560"></label>
+                            </p>
+                        </td>
                     </tr>
                     </tbody>
                 </table>
             </div>
             <div class="btn-data">
-                <button id="submit" type="submit" class="frm-btn"> Export </button>
+                <button id="submit" type="submit" class="frm-btn"> Submit</button>
+                <button id="update" type="submit" class="frm-btn"> Update</button>
             </div>
 
         </div>
     </div>
 </div>
+
 
 
 <!--js library-->
@@ -136,23 +174,23 @@
 <!--bootdtrap-->
 <script src="js/bootstrap.min.js"></script>
 <script>
-	function myFunction() {
-	  var input, filter, table, tr, td, i;
-	  input = document.getElementById("myInput");
-	  filter = input.value.toUpperCase();
-	  table = document.getElementById("myTable");
-	  tr = table.getElementsByTagName("tr");
-	  for (i = 0; i < tr.length; i++) {
-	    td = tr[i].getElementsByTagName("td")[0];
-	    if (td) {
-	      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
-	        tr[i].style.display = "";
-	      } else {
-	        tr[i].style.display = "none";
-	      }
-	    }       
-	  }
-	}
+function myFunction() {
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
 </script>
 
 
