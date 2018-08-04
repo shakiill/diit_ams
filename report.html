@@ -56,11 +56,12 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="batch-content text-center">
-                    <ul class="b-details">                        
+                    <ul class="b-details">
                         <li> Department : CSE</li>
                         <li> Batch : 15th</li>
                         <li> Section : A</li>
-                        <li><input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for ID" title="Type in a ID"></li>
+                        <li><input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for ID"
+                                   title="Type in a ID"></li>
                     </ul>
                 </div>
             </div>
@@ -85,44 +86,44 @@
                     <tr>
                         <td>1543</td>
                         <td>Saleh Ahmad Shakil</td>
-                        <td> 95% </td>
+                        <td> 95%</td>
                     </tr>
 
                     <tr>
                         <td>1550</td>
                         <td>Mahmudul Huq</td>
-                         <td> 75% </td>
+                        <td> 75%</td>
                     </tr>
                     <tr>
                         <td>1551</td>
                         <td>Rinky Chowdhury</td>
-                         <td> 45% </td>
+                        <td> 45%</td>
                     </tr>
                     <tr>
                         <td>1586</td>
                         <td>Jarin Tasnim</td>
-                         <td> 69% </td>
+                        <td> 69%</td>
                     </tr>
                     <tr>
                         <td>1524</td>
                         <td>Kamrul Hasan</td>
-                         <td> 35% </td>
+                        <td> 35%</td>
                     </tr>
                     <tr>
                         <td>1513</td>
                         <td>Mosfequr Rahman</td>
-                        <td> 55% </td>
+                        <td> 55%</td>
                     </tr>
                     <tr>
                         <td>1560</td>
                         <td>Shakil Mahmud Limon</td>
-                         <td> 65% </td>
+                        <td> 65%</td>
                     </tr>
                     </tbody>
                 </table>
             </div>
             <div class="btn-data">
-                <button id="submit" type="submit" class="frm-btn"> Export </button>
+                <button id="submit" type="submit" class="frm-btn"> Export</button>
             </div>
 
         </div>
@@ -136,23 +137,23 @@
 <!--bootdtrap-->
 <script src="js/bootstrap.min.js"></script>
 <script>
-	function myFunction() {
-	  var input, filter, table, tr, td, i;
-	  input = document.getElementById("myInput");
-	  filter = input.value.toUpperCase();
-	  table = document.getElementById("myTable");
-	  tr = table.getElementsByTagName("tr");
-	  for (i = 0; i < tr.length; i++) {
-	    td = tr[i].getElementsByTagName("td")[0];
-	    if (td) {
-	      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
-	        tr[i].style.display = "";
-	      } else {
-	        tr[i].style.display = "none";
-	      }
-	    }       
-	  }
-	}
+    function myFunction() {
+        var input, filter, table, tr, td, i;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("myTable");
+        tr = table.getElementsByTagName("tr");
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0];
+            if (td) {
+                if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
 </script>
 
 
