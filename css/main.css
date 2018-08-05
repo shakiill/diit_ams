@@ -23,6 +23,24 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Sunflower', sans-serif;
 }
 
+.logout>a {
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+    margin-top: 10px;
+    background: #1d335d;
+    color: #fff!important;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Maven Pro', sans-serif;
+    transition: all .3s;
+
+}
+.logout>a:hover {
+    background: #fff;
+    color: #000!important;
+    border: 2px solid #000;
+
+}
 /*index page */
 .main-section {
     height: 100vh;
@@ -189,6 +207,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #3a3939b8;
+}
+.navbar {
+    border: none;
+    border-radius: 0;
 }
 .report-body {
     background: #051d4ce6;
@@ -375,4 +397,90 @@ input[type=checkbox], input[type=radio] {
     line-height: inherit;
     margin-top: -8px;
     color: #000;
+}
+
+
+/*teacher panel page*/
+.teacher-body {
+    background: #1d335d;
+    padding-top: 80px;
+}
+.tr-panel-left {
+    background: #eaeaeafa;
+    margin-top: -20px;
+    min-height: 100vh;
+    margin-left: -30px;
+    position: fixed;
+    padding-top: 7vh;
+}
+
+.tr-lf-img img {
+    max-width: 150px;
+}
+.tr-lf-img h2 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Sunflower', sans-serif;
+}
+.tr-lf-details {
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-top: 30px;
+
+}
+.tr-lf-details ul li {
+    list-style: square;
+    font-size: 18px;
+    font-family: 'Maven Pro', sans-serif;
+}
+.tr-panel-rt {
+    color: #fff;
+    padding: 10px 40px 60px 40px;
+}
+.tr-panel-rt h2 {
+font-family: 'Maven Pro', sans-serif;
+}
+.tr-subject {
+
+    min-height: 250px;
+    background: #fff;
+    color: #000;
+    padding: 30px 10px;
+    border-radius: 5px;
+    margin-top: 38px;
+    margin-right: 30px;
+}
+.tr-subject ul li {
+    font-size: 18px;
+}
+.tr-subject ul {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.tr-subject i.fas.fa-book {
+    font-size: 40px;
+}
+.tr-subject a {
+    padding: 10px 20px;
+    border: none;
+    transition: all .5s;
+    color: #fff;
+    text-decoration: none;
+    background: #1d335d;
+    border-radius: 5px;
+    font-family: 'Maven Pro', sans-serif;
+
+}
+.tr-subject a:hover {
+     padding: 10px 20px;
+    border: 2px solid #000;
+    transition: all .5s;
+    color: #000000;
+    text-decoration: none;
+    background: none;
+
+}
+.tr-pnl-mobile {
+    display: none;
 }

@@ -49,7 +49,22 @@
     }
 
     /*end main page*/
+    /*teacher panel*/
+    .tr-panel-left {
+        display: none;
+    }
 
+    .tr-subject {
+        margin-right: 0;
+    }
+
+    .tr-panel-rt {
+        color: #fff;
+        padding: 10px 20px 60px 20px;
+    }
+    .tr-pnl-mobile {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -60,7 +75,7 @@
         padding-right: 5px;
         overflow-y: hidden;
         -ms-overflow-style: -ms-autohiding-scrollbar;
-         border: none;
+        border: none;
     }
 }
 
