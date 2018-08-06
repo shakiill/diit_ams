@@ -175,7 +175,7 @@
                 </table>
             </div>
             <div class="btn-data">
-               <button id="update" type="submit" class="frm-btn"> Edit </button>
+               <button id="edit" type="submit" class="frm-btn"> Edit </button>
                <button id="update" type="submit" class="frm-btn"> Update </button>
             </div>
 
@@ -189,26 +189,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
 <!--bootdtrap-->
 <script src="js/bootstrap.min.js"></script>
-<script>
-    function myFunction() {
-        var input, filter, table, tr, td, i;
-        input = document.getElementById("myInput");
-        filter = input.value.toUpperCase();
-        table = document.getElementById("myTable");
-        tr = table.getElementsByTagName("tr");
-        for (i = 0; i < tr.length; i++) {
-            td = tr[i].getElementsByTagName("td")[0];
-            if (td) {
-                if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
-                    tr[i].style.display = "";
-                } else {
-                    tr[i].style.display = "none";
-                }
-            }
-        }
-    }
-</script>
-
 
 </body>
 </html>

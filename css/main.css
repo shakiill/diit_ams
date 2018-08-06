@@ -484,3 +484,9 @@ font-family: 'Maven Pro', sans-serif;
 .tr-pnl-mobile {
     display: none;
 }
+
+/*add student page*/
+.add-student {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
