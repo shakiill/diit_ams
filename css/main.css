@@ -44,14 +44,13 @@ h1, h2, h3, h4, h5, h6 {
 /*index page */
 .main-section {
     height: 100vh;
-    padding: 5vh;
     overflow-x: hidden;
 }
 
 .main-left {
     background: #051d4ce6;
     color: #fff;
-    height: 90vh;
+    height: 100vh;
     padding-right: 0;
 }
 
@@ -88,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
     padding-left: 0;
 }
 
@@ -429,6 +428,9 @@ input[type=checkbox], input[type=radio] {
     padding-top: 30px;
 
 }
+.tr-panel-rt-tl {
+    margin-bottom: 30px;
+}
 .tr-lf-details ul li {
     list-style: square;
     font-size: 18px;
@@ -484,6 +486,22 @@ font-family: 'Maven Pro', sans-serif;
 .tr-pnl-mobile {
     display: none;
 }
+.btn-info {
+    color: #fff;
+    background-color: #31b0d5;
+    border-color: #269abc;
+    transition: all .5s;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.btn-info:hover {
+    color: #31b0d5;
+    background-color: #fff;
+    border: 1px solid #31b0d5;
+}
+.form-control option {
+    background: #7d797a80;
+}
 
 /*add student page*/
 .add-student-body {
@@ -510,3 +528,4 @@ font-family: 'Maven Pro', sans-serif;
     font-family: 'Maven Pro', sans-serif;
     font-size: 18px;
 }
+
