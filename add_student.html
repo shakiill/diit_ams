@@ -8,11 +8,14 @@
     <title>Add Student | Diit Attendance management system</title>
     <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Font Awesome CSS-->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+
     <!-- fonts link -->
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro|Sunflower:300"
           rel="stylesheet">
+        <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
     <!--main css-->
     <link rel="stylesheet" href="css/main.css">
     <!-- responsive css -->
@@ -24,7 +27,7 @@
 
 <!--section header-->
 <div class="section-menu">
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -42,7 +45,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Link</a></li>
+                    <li><a href="reciption.html"> Student </a></li>
+                    <li><a href="fine.html"> Fine </a></li>
+                    <li><a href="report.html"> Report </a></li>
+                   <li><a href="#">logout&nbsp; <i class="fas fa-sign-out-alt"></i> </a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -148,7 +154,7 @@
                 </div>
                 <div class="col-md-6 clearfix">
                     <div class="form-group">
-                        <label for="batch">Mother's Name:</label>
+                        <label for="batch">Batch Name:</label>
                         <input type="text" class="form-control" id="batch" placeholder="Enter batch name"
                                name="batch" required>
                     </div>
