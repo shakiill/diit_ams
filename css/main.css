@@ -639,16 +639,19 @@ button.act-btn-d {
     background: #D90368;
     color: #FFFFFF;
 }
+
 .add-btn-std a {
     color: #fff;
     text-decoration: none;
     font-family: 'Maven Pro', sans-serif;
 }
+
 .std-if-dtl {
     margin: auto 20px;
     color: #FFFFFF;
 }
-.pagination>li>a, .pagination>li>span {
+
+.pagination > li > a, .pagination > li > span {
     position: relative;
     float: left;
     padding: 8px 15px;
@@ -658,4 +661,80 @@ button.act-btn-d {
     text-decoration: none;
     background-color: #d90368;
     border: none;
+}
+
+.dataTables_length label {
+    position: absolute;
+    right: 96px;
+    color: #d90368;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.dataTables_filter label {
+    color: #fff;
+    font-family: 'Maven Pro', sans-serif;
+}
+.dataTables_filter input {
+    border: none;
+    color: #000;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.dataTables_info {
+    color: #fff;
+    font-family: 'Maven Pro', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.paginate_button,
+.previous {
+    background: #fff;
+    color: #000;
+    margin: 6px;
+    padding: 5px 12px;
+}
+
+.paginate_button,
+.previous a {
+    text-decoration: none;
+
+}
+
+.paginate_button {
+    border-radius: 0 !important;
+}
+
+.dataTables_paginate {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.paginate_button:hover {
+    border-radius: 0 !important;
+    text-decoration: none;
+}
+
+.paginate_button:focus {
+    border-radius: 0 !important;
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+}
+.paginate_button:active {
+    border-radius: 0 !important;
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+}
+/*.paginate_button:active {*/
+    /*border-radius: 0 !important;*/
+    /*text-decoration: none;*/
+    /*background: #fff;*/
+    /*color: #fff;*/
+/*}*/
+
+.table-responsive {
+
 }
