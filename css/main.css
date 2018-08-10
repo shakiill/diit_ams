@@ -518,11 +518,13 @@ input[type=checkbox], input[type=radio] {
     line-height: 30px;
     transition: all .5s;
 }
-.nav>li>a {
+
+.nav > li > a {
     position: relative;
     display: block;
     padding: 10px 25px;
 }
+
 .navbar-default .navbar-nav > li > a {
     color: #fff;
 }
@@ -532,8 +534,9 @@ input[type=checkbox], input[type=radio] {
     padding-bottom: 15px;
     background: #252020;
 }
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-   background: #31b0d5;
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    background: #31b0d5;
     color: #fff;
 }
 
@@ -597,3 +600,62 @@ input[type=checkbox], input[type=radio] {
     font-size: 18px;
 }
 
+/*new css*/
+button.act-btn-e {
+    border: none;
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    padding: 6px 10px;
+    border-radius: 2px;
+}
+
+button.act-btn-v {
+    border: none;
+    background: #D90368;
+    color: #fff;
+    font-size: 14px;
+    padding: 6px 10px;
+    border-radius: 2px;
+}
+
+button.act-btn-d {
+    border: none;
+    background: #f12525;
+    color: #fff;
+    font-size: 14px;
+    padding: 6px 10px;
+    border-radius: 2px;
+}
+
+.add-btn-std {
+    margin-bottom: 20px;
+}
+
+.add-btn-std button {
+    padding: 8px 25px;
+    box-shadow: none;
+    border-width: 0;
+    background: #D90368;
+    color: #FFFFFF;
+}
+.add-btn-std a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Maven Pro', sans-serif;
+}
+.std-if-dtl {
+    margin: auto 20px;
+    color: #FFFFFF;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 8px 15px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #fff;
+    text-decoration: none;
+    background-color: #d90368;
+    border: none;
+}
